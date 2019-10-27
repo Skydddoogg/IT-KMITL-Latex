@@ -214,11 +214,11 @@
         \LARGE{\textbf{\ThesisTitleENG}} \vfill
         \Large{\textbf{\Author}} \\
         \Large{\textbf{\AuthorENG}} \\
-        \Large{\textbf{\SId}} \\[0.5cm]
+        \Large{\textbf{\SId}} \vfill
         	% TODO Hide when AuthorTwo is empty
-        	\Large{\textbf{\AuthorTwo}} \\
-        \Large{\textbf{\AuthorTwoENG}} \\
-        \Large{\textbf{\SIdTwo}} \vfill
+        	% \Large{\textbf{\AuthorTwo}} \\
+        % \Large{\textbf{\AuthorTwoENG}} \\
+        % \Large{\textbf{\SIdTwo}} \vfill
         \large{\textbf{ปริญญานิพนธ์นี้เป็นส่วนหนึ่งของการศึกษาตามหลักสูตรวิทยาศาสตรบัณฑิต \\
                 สาขาวิชาเทคโนโลยีสารสนเทศ คณะเทคโนโลยีสารสนเทศ \\
                 สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง \\
@@ -235,10 +235,10 @@
         \LARGE{\textbf{\ThesisTitleENG}} \vfill
         \Large{\textbf{โดย}} \\[0.5cm]
         \Large{\textbf{\Author}}  \\
-        \Large{\textbf{รหัสประจำตัว \SId}} \\[0.5cm]
+        \Large{\textbf{รหัสประจำตัว \SId}} \\[1.5cm]
         % TODO Hide when AuthorTwo is empty
-        \Large{\textbf{\AuthorTwo}} \\
-        \Large{\textbf{รหัสประจำตัว \SIdTwo}} \\[1.5cm]
+        % \Large{\textbf{\AuthorTwo}} \\
+        % \Large{\textbf{รหัสประจำตัว \SIdTwo}} \\[1.5cm]
         \Large{\textbf{อาจารย์ที่ปรึกษา}} \\
         \Large{\textbf{\Advisor}} \vfill
         \large{\textbf{ปริญญานิพนธ์นี้เป็นส่วนหนึ่งของการศึกษาตามหลักสูตรวิทยาศาสตรบัณฑิต \\
@@ -254,8 +254,8 @@
     \thispagestyle{empty}
     \begin{center}
         \LARGE{\textbf{\ThesisTitleENG}} \vfill
-        \Large{\textbf{\AuthorENG}} \\[0.5cm]
-        \Large{\textbf{\AuthorTwoENG}} \vfill
+        \Large{\textbf{\AuthorENG}} \vfill
+        % \Large{\textbf{\AuthorTwoENG}} \vfill
         \large{\textbf{A PROJECT SUBMITTED IN PARTIAL FULFILLMENT \\
                 OF THE REQUIREMENT FOR THE DEGREE OF \\
                 BACHELOR OF SCIENCE PROGRAM IN INFORMATION TECHNOLOGY \\
@@ -290,7 +290,7 @@
     \begin{flushright}    
         \begin{tabular}{c}
             \Author \\
-            \AuthorTwo \\
+            % \AuthorTwo \\
             ผู้จัดทำรายงาน \\
             วันที่ \SubD
         \end{tabular}
@@ -306,8 +306,8 @@
     \begin{table}[h]
         \begin{tabularx}{\linewidth}{lX}
             \textbf{ชื่อรายงาน} & \ThesisTitle \\
-            \textbf{ชื่อนักศึกษา} & \Author, \AuthorTwo \\
-            \textbf{รหัสนักศึกษา} & \SId, \SIdTwo \\
+            \textbf{ชื่อนักศึกษา} & \Author \\
+            \textbf{รหัสนักศึกษา} & \SId \\
             \textbf{สาขาวิชา} & เทคโนโลยีสารสนเทศ \\
             \textbf{อาจารย์ที่ปรึกษา} & \Advisor \\
             \textbf{ปีการศึกษา} & \AcaY
@@ -330,8 +330,8 @@
     \begin{table}[h]
         \begin{tabularx}{\linewidth}{lX}
             \textbf{Project Title} & \ThesisTitleENG \\
-            \textbf{Name} & \AuthorENG, \AuthorTwoENG \\
-            \textbf{Student ID} & \SId, \SIdTwo \\
+            \textbf{Name} & \AuthorENG \\
+            \textbf{Student ID} & \SId \\
             \textbf{Department} & Information Technology \\
             \textbf{Advisor} & \AdvisorENG \\
             \textbf{Year} & \AcaYAD
@@ -376,7 +376,7 @@
 		\begin{tabular}{l l}
 			\textbf{ผู้จัดทำ} & \null \\
 			\null & \textbf{1. \Author \ รหัสประจำตัว \SId} \\
-			\null & \textbf{2. \AuthorTwo \ รหัสประจำตัว \SIdTwo}
+			% \null & \textbf{2. \AuthorTwo \ รหัสประจำตัว \SIdTwo}
 		\end{tabular}
 	\end{Large}
 
@@ -406,8 +406,8 @@
 
 			\vfill
 
-			\Large{\Author \ รหัสประจำตัว \SId} \\
-			\Large{\AuthorTwo \ รหัสประจำตัว \SIdTwo}
+			\Large{\Author \ รหัสประจำตัว \SId}
+			% \Large{\AuthorTwo \ รหัสประจำตัว \SIdTwo}
 		\end{bfseries}
 
 		\vfill
@@ -424,9 +424,9 @@
         \begin{tabular}{c}
             ........................................... \\
             \Author \\
-            \null \\
-            ........................................... \\
-            \AuthorTwo
+            % \null \\
+            % ........................................... \\
+            % \AuthorTwo
         \end{tabular}
     \end{flushright}
 }
